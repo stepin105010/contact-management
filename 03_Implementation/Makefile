@@ -1,4 +1,4 @@
-PROJECT_NAME = contact management system
+PROJECT_NAME = CMS
 
 
 BUILD = build
