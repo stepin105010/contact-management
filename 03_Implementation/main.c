@@ -26,7 +26,7 @@ void main()
 
         printf("  \n\n\n       WELCOME TO CONTACT MANAGEMENT SYSTEM !!!! LOGIN IS SUCCESSFUL");
         printf("\n\n\n\t\t\t\tPress any key to continue...");
-        getch();
+        //getch();
         mainmenu();
     }
     else
