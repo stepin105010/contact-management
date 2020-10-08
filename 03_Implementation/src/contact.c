@@ -7,11 +7,12 @@ int login(char user[10],char pass[10])
     char pword[10],code[10];
 
 
-    printf("\n  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  LOGIN FORM  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  ");
-    printf(" \n\n                  ENTER USERNAME:-");
+   // printf("\n  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  LOGIN FORM  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  ");
+    	printf("\t\t\t\t\tLOGIN");
+	printf(" \n\n                  ENTER USERNAME:-");
 	scanf("%s", uname);
 	printf(" \n\n                  ENTER PASSWORD:-");
-	while(i<10)
+	/*while(i<10)
 	{
 	    pword[i]=getch();
 	    c=pword[i];
@@ -19,7 +20,8 @@ int login(char user[10],char pass[10])
 	    else printf("*");
 	    i++;
 	}
-	pword[i]='\0';
+	pword[i]='\0';*/
+	scanf("%s", &pword);
 
 	i=0;
 
