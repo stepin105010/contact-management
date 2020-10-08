@@ -253,7 +253,9 @@ void mainmenu(void)
 
                 name[l]='\0';
 
-                if(stricmp(name,query)==0)
+                //if(name==query)
+		 //if(strcasecmp(name,query)==0)
+		 if(strcasecmp(name,query)==0)
 
                 {
 
@@ -330,7 +332,8 @@ void mainmenu(void)
 
         {
 
-            if(stricmp(name,list.name)!=0)
+             if(strcasecmp(name,list.name)!=0)
+
 
                 fwrite(&list,sizeof(list),1,ft);
 
@@ -418,8 +421,7 @@ void delete_contact()
 
         while(fread(&list,sizeof(list),1,fp)!=0)
 
-            if (stricmp(name,list.name)!=0)
-
+            if (strcasecmp(name,list.name)!=0)
                 fwrite(&list,sizeof(list),1,ft);
 
         fclose(fp);
