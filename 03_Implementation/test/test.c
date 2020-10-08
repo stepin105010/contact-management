@@ -1,7 +1,7 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 #include<contact.h>
-#define PROJECT_NAME    "Contact Management System"
+#define PROJECT_NAME    "CMS"
 
 
 
