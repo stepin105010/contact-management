@@ -6,7 +6,7 @@
 
 #include<string.h>
 
-#include<process.h>
+//#include<process.h>
 
 #include<stdlib.h>
 
