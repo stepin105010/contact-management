@@ -116,7 +116,9 @@ void mainmenu(void)
 
             printf("Phone:");
 
-            gets(list.ph);
+            //gets(list.ph);
+	    scanf("%s",&list.ph);
+
 
 
             //scanf("%ld",&list.ph);
@@ -131,7 +133,8 @@ void mainmenu(void)
 
             printf("email address:");
 
-            gets(list.email);
+           // gets(list.email);
+	    scanf("%s",&list.email);
 
             printf("\n");
 
@@ -352,7 +355,9 @@ void mainmenu(void)
         printf("..::Phone:");
 
         //scanf("%ld",&list.ph);
-        gets(list.ph);
+        //gets(list.ph);
+  	scanf("%s",&list.ph);
+
 
         fflush(stdin);
 
@@ -364,7 +369,8 @@ void mainmenu(void)
 
         printf("..::email address:");
 
-        gets(list.email);
+        //gets(list.email);
+  	scanf("%s",&list.email);
 
         printf("\n");
 
