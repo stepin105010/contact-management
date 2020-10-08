@@ -2,14 +2,14 @@
 
 int login(char user[10],char pass[10])
 {
-	int a=0,i=0;
+	int a=0,i=0,k;
     char uname[10],c=' ';
     char pword[10],code[10];
 
 
     printf("\n  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  LOGIN FORM  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  ");
     printf(" \n\n                  ENTER USERNAME:-");
-	scanf("%s", &uname);
+	scanf("%s", uname);
 	printf(" \n\n                  ENTER PASSWORD:-");
 	while(i<10)
 	{
