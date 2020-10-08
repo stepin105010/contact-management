@@ -14,6 +14,7 @@ char query[20],name[20];
 FILE *fp, *ft;
 
 int i,n,ch,l,found,k,n,a;
+char z;
 char user[10];
 char pass[10];
 
@@ -209,6 +210,7 @@ void mainmenu(void)
 
             {
                 printf("=========================================================== [%c]-(%d)\n\n",i-32,found);
+		scanf("%c",&z);
 
                // getch();
             }
@@ -216,6 +218,7 @@ void mainmenu(void)
             fclose(fp);
 
         }
+	scanf("%c",&z);
         mainmenu();
 
 
