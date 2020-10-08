@@ -143,14 +143,14 @@ void mainmenu(void)
 
             scanf("%s",&answer);
 
-            while(toupper(answer)!='Y'&& toupper(answer)!='N')
+            /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
 
             {
                 printf("Invalid!\n\tDo you want to add another contact?[Y/N]:");
 
                 scanf("%s",&answer);
-            }
-            if(toupper(answer)=='Y')
+            }*/
+            if((answer=='Y')||(answer=='y'))
 
             {
                 add_contact();
@@ -290,13 +290,13 @@ void mainmenu(void)
 
             scanf("%s",&answer);
 
-            while(toupper(answer)!='Y'&& toupper(answer)!='N')
+            /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
             {
                 printf("Invalid!\n\tDo you want to search another contact?[Y/N]:");
 
                 scanf("%s",&answer);
-            }
-            if(toupper(answer)=='Y')
+            }*/
+            if((answer=='Y')||(answer=='y'))
             {
                 search_contact();
             }
@@ -381,12 +381,12 @@ void mainmenu(void)
 
 	    scanf("%s",&answer);
 
-        while(toupper(answer)!='Y'&& toupper(answer)!='N')
+        /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
         {
             printf("Invalid!\n\tDo you want to edit another contact ?[Y/N]:");
             scanf("%s",&answer);
-        }
-        if(toupper(answer)=='Y')
+        }*/
+       if((answer=='Y')||(answer=='y'))
         {
             edit_contact();
         }
@@ -437,12 +437,12 @@ void delete_contact()
 
 	    scanf("%s",&answer);
 
-        while(toupper(answer)!='Y'&& toupper(answer)!='N')
+        /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
         {
             printf("Invalid!\n\tDo you want to delete another contact ?[Y/N]:");
             scanf("%s",&answer);
-        }
-        if(toupper(answer)=='Y')
+        }*/
+        if((answer=='Y')||(answer=='y'))
         {
             delete_contact();
         }
