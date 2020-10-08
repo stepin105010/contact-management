@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Unit testing
 
 on:
   push:
@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make all
-      run: make all -C 03_Implementation/
-    
+    - name: Install Cunit
+      run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
+    - name: make test
+      run:  make test -C 03_Implementation/
+      
