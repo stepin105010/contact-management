@@ -23,7 +23,8 @@ int login(char user[10],char pass[10])
 
 	i=0;
 
-    if(strcmp(uname,"user")==0 && strcmp(pword,"pass")==0)
+    	if((uname=="user")&&(pword=="pass"))
+	//if((uname,"user")==0 && strcmp(pword,"pass")==0)
 	{
 	k=1;
 
