@@ -1,8 +1,8 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
-
-#define PROJECT_NAME    "Contact Management System"
 #include<contact.h>
+#define PROJECT_NAME    "Contact Management System"
+
 
 
 void testlogin(void);
