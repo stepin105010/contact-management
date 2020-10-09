@@ -8,6 +8,7 @@ Contact management is the practice of storing and organizing contact data so tha
 Features
 
 Proper login system with validation
+
 Easy to add,list,search,edit and delete records
 
 User can login into the system with valid username and password.If the login is successful then displays the main menu with list of options.Here user can add new contact with attributes such as name,phone number,address,email id.User can list all contacts in the system,search for existing contact in the system using name,displays “not found” message if the user search for a contact which is not in the system,can edit and delete contact details in the system by entering name.
