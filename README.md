@@ -3,7 +3,7 @@
 
 # contact-management
 
-Contact management is the practice of storing and organizing contact data so that it’s easy to access.This is a mini project on contact management system.Here user can add contact details safely and it's not time consuming.This system make easy to store records of each.The whole project is designed in c language.The system has proper login,the main menu with options such as add new contact,list all contacts,search,edit and delete contacts will only display if the user have entered correct user name and password.Otherwise the system will not allow to do above functions
+Contact management is the practice of storing and organizing contact data so that it’s easy to access.This is a mini project on contact management system.Here user can add contact details safely and it's not time consuming.This system make easy to store records of each.The whole project is designed in c language.The system has proper login,the main menu with options such as add new contact,list all contacts,search,edit and delete contacts will only display if the user have entered correct user name and password.Otherwise the system will not allow to do these functions
 
 Features
 
