@@ -5,7 +5,7 @@ struct contact
 
 
     char name[20],add[80],email[30],ph[20];
-    char answer;
+    char answer[3];
 
 } list;
 
@@ -145,7 +145,7 @@ void mainmenu(void)
 
             printf("\n\t\t Do you want to add another contact?[Y/N]:");
 
-            scanf("%s",&answer);
+            scanf("%2s",&answer);
 
             /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
 
@@ -296,7 +296,7 @@ void mainmenu(void)
 
             printf("\n\t\t Do you want to  search another contact ?[Y/N]:");
 
-            scanf("%s",&answer);
+            scanf("%2s",&answer);
 
             /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
             {
@@ -391,7 +391,7 @@ void mainmenu(void)
 
         printf("\n\t\t Do you want to edit another contact?[Y/N]:");
 
-	    scanf("%s",&answer);
+	    scanf("%2s",&answer);
 
         /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
         {
@@ -446,7 +446,7 @@ void delete_contact()
 
         printf("\n\t\t Do you want to delete another contact?[Y/N]:");
 
-	    scanf("%s",&answer);
+	    scanf("%2s",&answer);
 
         /*while(toupper(answer)!='Y'&& toupper(answer)!='N')
         {
