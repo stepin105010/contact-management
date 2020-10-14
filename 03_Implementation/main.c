@@ -4,7 +4,7 @@ struct contact
 {
 
 
-    char name[20],add[60],email[30],ph[20];
+    char name[20],add[80],email[30],ph[20];
     char answer;
 
 } list;
