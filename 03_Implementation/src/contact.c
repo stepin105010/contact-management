@@ -10,7 +10,7 @@ int login(char user[10],char pass[10])
    // printf("\n  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  LOGIN FORM  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  ");
     	printf("\t\t\t\t\tLOGIN");
 	printf(" \n\n                  ENTER USERNAME:-");
-	scanf("%4s", uname);
+	scanf("%9s", uname);
 	printf(" \n\n                  ENTER PASSWORD:-");
 	/*while(i<10)
 	{
@@ -21,7 +21,7 @@ int login(char user[10],char pass[10])
 	    i++;
 	}
 	pword[i]='\0';*/
-	scanf("%4s", pword);
+	scanf("%9s", pword);
 
 	//i=0;
 
