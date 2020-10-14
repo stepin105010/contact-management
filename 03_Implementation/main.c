@@ -111,7 +111,7 @@ void mainmenu(void)
 
             printf("\nFullName :");
 
-            scanf("%[^\n]49",list.name);
+            scanf("%[^\n]49s",list.name);
 
             fflush(stdin);
 
@@ -128,7 +128,7 @@ void mainmenu(void)
 
             printf("address:");
 
-            scanf("%[^\n]79",list.add);
+            scanf("%[^\n]79s",list.add);
 
             fflush(stdin);
 
@@ -239,7 +239,7 @@ void mainmenu(void)
 
             fflush(stdin);
 
-            scanf("%[^\n]49",query);
+            scanf("%[^\n]49s",query);
 
             l=strlen(query);
 
@@ -332,7 +332,7 @@ void mainmenu(void)
 
         printf("..::Edit contact\n===============================\n\n\t..::Enter the name of contact to edit:");
 
-        scanf("%[^\n]49",name);
+        scanf("%[^\n]49s",name);
 
         while(fread(&list,sizeof(list),1,fp)==1)
 
@@ -351,7 +351,7 @@ void mainmenu(void)
 
         printf("..::Name(Use identical):");
 
-        scanf("%[^\n]49",list.name);
+        scanf("%[^\n]49s",list.name);
 
         fflush(stdin);
 
@@ -366,7 +366,7 @@ void mainmenu(void)
 
         printf("..::address:");
 
-        scanf("%[^\n]79",list.add);
+        scanf("%[^\n]79s",list.add);
 
         fflush(stdin);
 
@@ -422,7 +422,7 @@ void delete_contact()
 
         printf("\n\n\t..::DELETE A CONTACT\n\t==========================\n\t..::Enter the name of contact to delete:");
 
-        scanf("%[^\n]49",name);
+        scanf("%[^\n]49s",name);
 
         fp=fopen("contact.txt","r");
 
