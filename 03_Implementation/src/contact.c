@@ -2,8 +2,8 @@
 
 int login(char user[10],char pass[10])
 {
-	int a=0,i=0,k;
-    char uname[10],c=' ';
+	int i=0,k;
+    char uname[10];
     char pword[10],code[10];
 
 
@@ -21,9 +21,9 @@ int login(char user[10],char pass[10])
 	    i++;
 	}
 	pword[i]='\0';*/
-	scanf("%s", &pword);
+	scanf("%s", pword);
 
-	i=0;
+	//i=0;
 
     	//if((uname=="user")&&(pword=="pass"))
 	//if((uname,"user")==0 && strcmp(pword,"pass")==0)
