@@ -2,7 +2,7 @@
 
 int login(char user[10],char pass[10])
 {
-	int i=0,k;
+	int k;
     char uname[10];
     char pword[10],code[10];
 
